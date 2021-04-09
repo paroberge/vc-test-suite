@@ -14,12 +14,13 @@ This test suite will check any application that generates [Verifiable Credential
 Data Model](https://www.w3.org/TR/vc-data-model/) documents to
 ensure conformance with the specification.
 
-### Running the Test Suite
+### Installing and Running the Test Suite
 
-1. `npm install`
-2. `cp config.json.example config.json`
-3. Modify `config.json` for your run (be sure to remove all comments)
-4. `npm test`
+1. `git clone https://github.com/w3c/vc-test-suite.git`
+2. `npm install`
+3. `cp config.json.example config.json`
+4. Modify `config.json` for your run (be sure to remove all comments)
+5. `npm test`
 
 ### Troubleshooting the Test Suite
 
